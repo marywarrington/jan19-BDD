@@ -11,6 +11,24 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <header>
+        <h1>Is this a leap year?</h1>
+        <h3>Who knows!?</h3>
+      </header>
+      <form id="leap-year">
+        <div class="form-group">
+          <label for="year">Enter a year so master computer can analyze it</label>
+          <input id="year" type="text">
+        </div><!--form group-->
+        <button type="submit" class="btn" name="button">Find out now!</button>
+      </form>
 
+      <div id="result">
+        <p>
+          <span class="year"></span> is <span class="not"></span> a leap year.
+        </p>
+      </div><!--result div-->
+    </div><!--container div-->
   </body>
 </html>
